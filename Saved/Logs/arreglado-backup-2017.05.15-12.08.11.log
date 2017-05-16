@@ -1,0 +1,1285 @@
+﻿Log file open, 05/15/17 11:25:02
+LogInit:Display: Running engine for game: arreglado
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1685754940) SRandInit(1685754940).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079337
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.15-18.25.03:684][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.15-18.25.03:684][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.15-18.25.03:697][  0]LogInit: Computer: RAMOS-PC
+[2017.05.15-18.25.03:697][  0]LogInit: User: Sebastian
+[2017.05.15-18.25.03:697][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.15-18.25.03:697][  0]LogInit: High frequency timer resolution =2.533210 MHz
+[2017.05.15-18.25.03:698][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.05.15-18.25.03:698][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.25.03:698][  0]LogMemory: Process Physical Memory: 261.20 MB used, 261.20 MB peak
+[2017.05.15-18.25.03:698][  0]LogMemory: Process Virtual Memory: 263.65 MB used, 263.65 MB peak
+[2017.05.15-18.25.03:698][  0]LogMemory: Physical Memory: 4186.50 MB used,  12116.42 MB free, 16302.92 MB total
+[2017.05.15-18.25.03:698][  0]LogMemory: Virtual Memory: 641.76 MB used,  12116.42 MB free, 134217728.00 MB total
+[2017.05.15-18.25.03:805][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.15-18.25.04:476][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.15-18.25.04:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M ' (Feature Level 11_0)
+[2017.05.15-18.25.04:497][  0]LogD3D11RHI:       3986/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.15-18.25.04:502][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.15-18.25.04:502][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.15-18.25.04:503][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.15-18.25.04:503][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.15-18.25.04:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.15-18.25.04:507][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.15-18.25.04:507][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.05.15-18.25.04:507][  0]LogWindows: EnumDisplayDevices:
+[2017.05.15-18.25.04:507][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.15-18.25.04:507][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.15-18.25.04:507][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.15-18.25.04:507][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.15-18.25.04:508][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M 
+[2017.05.15-18.25.04:508][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.15-18.25.04:508][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.15-18.25.04:508][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.15-18.25.04:515][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.05.15-18.25.04:516][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.15-18.25.04:516][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.15-18.25.04:534][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.15-18.25.04:534][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Intermediate/Shaders/WorkingDirectory/8732/).
+[2017.05.15-18.25.04:534][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sebastian/AppData/Local/Temp/UnrealShaderWorkingDir/89E2DEF0430B25DAD97D90BC0618DEDD/'.
+[2017.05.15-18.25.04:534][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.15-18.25.05:672][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.15-18.25.05:727][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.15-18.25.05:778][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.15-18.25.05:828][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.15-18.25.05:882][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.15-18.25.05:935][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.15-18.25.05:996][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.15-18.25.06:054][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.15-18.25.06:099][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.15-18.25.06:150][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.15-18.25.06:200][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.15-18.25.06:250][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.15-18.25.06:300][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.15-18.25.06:351][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.15-18.25.06:402][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.15-18.25.06:518][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.15-18.25.06:518][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.15-18.25.06:553][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.15-18.25.06:643][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.15-18.25.06:679][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.15-18.25.06:734][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.15-18.25.06:785][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.15-18.25.06:834][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.15-18.25.06:886][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.15-18.25.06:886][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.15-18.25.07:341][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.15-18.25.07:394][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.15-18.25.07:394][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sebastian/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.15-18.25.07:394][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.15-18.25.07:394][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.15-18.25.07:394][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.15-18.25.07:394][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.15-18.25.07:416][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.15-18.25.07:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sebastian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.15-18.25.07:438][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.15-18.25.07:439][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.15-18.25.07:439][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.15-18.25.07:735][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.15-18.25.07:738][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.15-18.25.07:949][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.15-18.25.07:999][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.15-18.25.08:048][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.15-18.25.08:048][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.15-18.25.08:048][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.15-18.25.08:631][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: arreglado, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2743168466
+[2017.05.15-18.25.08:676][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.05.15-18.25.08:738][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.035983 seconds
+[2017.05.15-18.25.08:743][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.15-18.25.08:743][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.05.15-18.25.08:743][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.15-18.25.08:821][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.15-18.25.10:390][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.05.15-18.25.10:420][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.15-18.25.10:461][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.15-18.25.10:887][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.15-18.25.11:269][  0]SourceControl: Info Source control is disabled
+[2017.05.15-18.25.11:270][  0]SourceControl: Info Source control is disabled
+[2017.05.15-18.25.11:312][  0]SourceControl: Info Source control is disabled
+[2017.05.15-18.25.11:354][  0]SourceControl: Info Source control is disabled
+[2017.05.15-18.25.12:603][  0]LogEngine: Initializing Engine...
+[2017.05.15-18.25.12:603][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.15-18.25.12:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.15-18.25.12:717][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.15-18.25.12:833][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.15-18.25.12:840][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.25.12:859][  0]LogInit: FAudioDevice initialized.
+[2017.05.15-18.25.12:883][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Sebastian/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.15-18.25.12:887][  0]LogInit: Texture streaming: Enabled
+[2017.05.15-18.25.12:980][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.15-18.25.13:059][  0]LogInit: Transaction tracking system initialized
+[2017.05.15-18.25.13:378][  0]BlueprintLog: New page: Editor Load
+[2017.05.15-18.25.14:226][  0]LocalizationService: Info Localization service is disabled
+[2017.05.15-18.25.14:851][  0]LogConsoleResponse:Display: 
+[2017.05.15-18.25.14:984][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.15-18.25.14:984][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.15-18.25.15:937][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Content/' took 0.03s
+[2017.05.15-18.25.15:977][  0]SourceControl: Info Source control is disabled
+[2017.05.15-18.25.15:977][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Mapas/Bilbioteca.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.15-18.25.15:978][  0]LightingResults: New page: Lighting Build
+[2017.05.15-18.25.16:015][  0]MapCheck: New page: Map Check
+[2017.05.15-18.25.16:015][  0]LightingResults: New page: Lighting Build
+[2017.05.15-18.25.16:481][  0]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.25.16:481][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.25.16:481][  0]LoadErrors:Error: Error /Game/Furniture/modelos/chair/Chair : Can't find file for asset. /Game/modelos/chair/Chair2
+[2017.05.15-18.25.16:481][  0]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.25.16:481][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.25.16:481][  0]LoadErrors:Error: Error /Game/Furniture/modelos/chair/Chair : Can't find file for asset. /Game/modelos/chair/Chair2
+[2017.05.15-18.25.16:482][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:483][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book01Mat
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:483][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book02Mat
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:483][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book03Mat
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:483][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book04Mat
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:483][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book05Mat
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.25.16:483][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:484][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book01Mat
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:484][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book02Mat
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:484][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book03Mat
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:484][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book04Mat
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.25.16:484][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.25.16:484][  0]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book05Mat
+[2017.05.15-18.25.16:485][  0]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.25.16:485][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.25.16:485][  0]LoadErrors:Error: Error /Game/Furniture/modelos/mesa/Linda+Coffee+Table : Can't find file for asset. /Game/modelos/mesa/glassMat
+[2017.05.15-18.25.16:485][  0]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.25.16:485][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.25.16:485][  0]LoadErrors:Error: Error /Game/Furniture/modelos/mesa/Linda+Coffee+Table : Can't find file for asset. /Game/modelos/mesa/table_legMat
+[2017.05.15-18.25.16:485][  0]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.25.16:485][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.25.16:486][  0]LoadErrors:Error: Error /Game/Furniture/modelos/mesa/Linda+Coffee+Table : Can't find file for asset. /Game/modelos/mesa/glassMat
+[2017.05.15-18.25.16:486][  0]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.25.16:486][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.25.16:486][  0]LoadErrors:Error: Error /Game/Furniture/modelos/mesa/Linda+Coffee+Table : Can't find file for asset. /Game/modelos/mesa/table_legMat
+[2017.05.15-18.25.16:501][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.25.16:501][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.25.16:501][  0]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_albedo
+[2017.05.15-18.25.16:501][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.25.16:502][  0]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_normal
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.25.16:502][  0]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_reflection
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.25.16:502][  0]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_albedo
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.25.16:502][  0]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_normal
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.25.16:502][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.25.16:502][  0]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_reflection
+[2017.05.15-18.25.16:508][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.25.16:508][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.25.16:508][  0]LoadErrors:Error: Error /Game/StarterContent/Props/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/M_Frame
+[2017.05.15-18.25.16:508][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.25.16:508][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.25.16:508][  0]LoadErrors:Error: Error /Game/StarterContent/Props/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/M_Frame
+[2017.05.15-18.25.16:614][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.25.16:614][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2017.05.15-18.25.16:614][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading NULL.
+[2017.05.15-18.25.16:615][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2017.05.15-18.25.16:616][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.25.16:616][  0]LoadErrors: Info Failed to load /Game/Room/Textures/book_pillir_albedo.book_pillir_albedo Referenced by MI_bookPiler
+[2017.05.15-18.25.16:616][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading NULL.
+[2017.05.15-18.25.16:616][  0]LoadErrors: Info Failed to load /Game/Room/Textures/book_pillir_albedo.book_pillir_albedo Referenced by MI_bookPiler
+[2017.05.15-18.25.16:616][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.25.16:616][  0]LoadErrors: Info Failed to load /Game/Room/Textures/book_pillir_reflection.book_pillir_reflection Referenced by MI_bookPiler
+[2017.05.15-18.25.16:616][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading NULL.
+[2017.05.15-18.25.16:616][  0]LoadErrors: Info Failed to load /Game/Room/Textures/book_pillir_reflection.book_pillir_reflection Referenced by MI_bookPiler
+[2017.05.15-18.25.16:616][  0]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.25.16:616][  0]LoadErrors: Info Failed to load /Game/Room/Textures/book_pillir_normal.book_pillir_normal Referenced by MI_bookPiler
+[2017.05.15-18.25.16:616][  0]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading NULL.
+[2017.05.15-18.25.16:616][  0]LoadErrors: Info Failed to load /Game/Room/Textures/book_pillir_normal.book_pillir_normal Referenced by MI_bookPiler
+[2017.05.15-18.25.16:620][  0]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.25.16:620][  0]LoadErrors: Info Failed to load /Game/modelos/mesa/glassMat.glassMat Referenced by Linda+Coffee+Table
+[2017.05.15-18.25.16:620][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading NULL.
+[2017.05.15-18.25.16:620][  0]LoadErrors: Info Failed to load /Game/modelos/mesa/glassMat.glassMat Referenced by Linda+Coffee+Table
+[2017.05.15-18.25.16:620][  0]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.25.16:620][  0]LoadErrors: Info Failed to load /Game/modelos/mesa/table_legMat.table_legMat Referenced by Linda+Coffee+Table
+[2017.05.15-18.25.16:620][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading NULL.
+[2017.05.15-18.25.16:620][  0]LoadErrors: Info Failed to load /Game/modelos/mesa/table_legMat.table_legMat Referenced by Linda+Coffee+Table
+[2017.05.15-18.25.16:620][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.25.16:620][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book01Mat.book01Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:621][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading NULL.
+[2017.05.15-18.25.16:621][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book01Mat.book01Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:621][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.25.16:621][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book02Mat.book02Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:621][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading NULL.
+[2017.05.15-18.25.16:621][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book02Mat.book02Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:621][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.25.16:621][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book03Mat.book03Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:621][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading NULL.
+[2017.05.15-18.25.16:621][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book03Mat.book03Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:621][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.25.16:621][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book04Mat.book04Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:622][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading NULL.
+[2017.05.15-18.25.16:622][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book04Mat.book04Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:622][  0]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.25.16:622][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book05Mat.book05Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:622][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading NULL.
+[2017.05.15-18.25.16:622][  0]LoadErrors: Info Failed to load /Game/modelos/libros/book05Mat.book05Mat Referenced by general_books_OBJ
+[2017.05.15-18.25.16:622][  0]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.25.16:622][  0]LoadErrors: Info Failed to load /Game/modelos/chair/Chair2.Chair2 Referenced by Chair
+[2017.05.15-18.25.16:623][  0]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading NULL.
+[2017.05.15-18.25.16:623][  0]LoadErrors: Info Failed to load /Game/modelos/chair/Chair2.Chair2 Referenced by Chair
+[2017.05.15-18.25.18:130][  0]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.25.18:222][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.15-18.25.18:222][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.15-18.25.18:290][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.037ms to complete.
+[2017.05.15-18.25.18:290][  0]LogFileHelpers: Loading map 'Bilbioteca' took 2.313
+[2017.05.15-18.25.18:462][  0]LogCollectionManager: Loaded 0 collections in 0.001831 seconds
+[2017.05.15-18.25.18:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Saved/Collections/' took 0.01s
+[2017.05.15-18.25.18:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Developers/Sebastian/Collections/' took 0.01s
+[2017.05.15-18.25.18:539][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Collections/' took 0.01s
+[2017.05.15-18.25.18:539][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.15-18.25.18:552][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2259 classes and 459 folders.
+[2017.05.15-18.25.18:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.15-18.25.18:656][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.15-18.25.18:696][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.15-18.25.18:743][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.15-18.25.18:748][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.15-18.25.18:819][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.15-18.25.18:819][  0]LogLoad: (Engine Initialization) Total time: 17.73 seconds
+[2017.05.15-18.25.18:819][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.05.15-18.25.18:819][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.15-18.25.18:819][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.15-18.25.18:828][  0]LogOcInput: OculusInput pre-init called
+[2017.05.15-18.25.18:846][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.05.15-18.25.18:862][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.15-18.25.18:866][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.15-18.25.18:872][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.15-18.25.19:051][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.05.15-18.25.19:100][  0]LogRenderer: Reallocating scene render targets to support 1208x568 NumSamples 1 (Frame:2).
+[2017.05.15-18.25.19:243][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-18.25.19:353][  1]LogHttp:Warning: 000000FBDDF29F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.25.19:353][  1]LogHttp:Warning: 000000FBDDF29F00: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.05.15-18.25.19:353][  1]LogHttp:Warning: 000000FBDDF29F00: libcurl info message cache 1 (Closing connection 0)
+[2017.05.15-18.25.19:371][  1]LogAssetRegistry: Asset discovery search completed in 10.7174 seconds
+[2017.05.15-18.25.19:371][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2017.05.15-18.25.19:371][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.05.15-18.25.19:475][  2]LogHttp:Warning: 000000FBDF310400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.25.19:475][  2]LogHttp:Warning: 000000FBDF310400: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.05.15-18.25.19:475][  2]LogHttp:Warning: 000000FBDF310400: libcurl info message cache 1 (Closing connection 1)
+[2017.05.15-18.25.19:529][  3]LogHttp:Warning: 000000FBE286D000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.25.19:529][  3]LogHttp:Warning: 000000FBE286D000: libcurl info message cache 0 (Could not resolve host: cdn.unrealengine.com)
+[2017.05.15-18.25.19:529][  3]LogHttp:Warning: 000000FBE286D000: libcurl info message cache 1 (Closing connection 2)
+[2017.05.15-18.25.30:795][221]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-18.25.30:881][221]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.25.30:933][221]Cmd: MAP LOAD FILE="../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Mapas/MenuPrincipal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.15-18.25.30:933][221]LightingResults: New page: Lighting Build
+[2017.05.15-18.25.30:935][221]LoadErrors: New page: Loading map: MenuPrincipal.umap
+[2017.05.15-18.25.30:938][221]MapCheck: New page: Map Check
+[2017.05.15-18.25.30:938][221]LightingResults: New page: Lighting Build
+[2017.05.15-18.25.30:956][221]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.15-18.25.30:979][221]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.15-18.25.31:057][221]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.812ms to complete.
+[2017.05.15-18.25.31:057][221]LogFileHelpers: Loading map 'MenuPrincipal' took 0.125
+[2017.05.15-18.25.32:093][335]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.25.32:109][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.25.32:109][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.25.32:109][335]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:25:32 AM)
+[2017.05.15-18.25.32:109][335]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.25.32:110][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001016s)
+[2017.05.15-18.25.32:111][335]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.25.32:111][335]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2017.05.15-18.25.32:111][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.001832s)
+[2017.05.15-18.25.32:125][335]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.25.32:136][335]LogInit: FAudioDevice initialized.
+[2017.05.15-18.25.32:192][335]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.25.32:194][335]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.25.32
+[2017.05.15-18.25.32:194][335]LogWorld: Bringing up level for play took: 0.000759
+[2017.05.15-18.25.32:233][335]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.15-18.25.32:236][335]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal -0.532
+[2017.05.15-18.25.32:236][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.10:163][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.10:203][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.14:047][996]LogRenderer: Reallocating scene render targets to support 1436x720 NumSamples 1 (Frame:2715).
+[2017.05.15-18.26.14:138][997]LogRenderer: Reallocating scene render targets to support 1920x1032 NumSamples 1 (Frame:2718).
+[2017.05.15-18.26.18:163][459]LogEditorViewport: Clicking Background
+[2017.05.15-18.26.18:835][538]LogHttp:Warning: 000000FBA108A200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.26.18:835][538]LogHttp:Warning: 000000FBA108A200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.26.18:835][538]LogHttp:Warning: 000000FBA108A200: libcurl info message cache 1 (Closing connection 3)
+[2017.05.15-18.26.22:105][927]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.26.22:123][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.22:123][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.26.22:124][927]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:26:22 AM)
+[2017.05.15-18.26.22:124][927]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.26.22:125][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000998s)
+[2017.05.15-18.26.22:125][927]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.26.22:125][927]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.05.15-18.26.22:126][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.001986s)
+[2017.05.15-18.26.22:140][927]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.26.22:148][927]LogInit: FAudioDevice initialized.
+[2017.05.15-18.26.22:181][927]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.26.22:182][927]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.26.22
+[2017.05.15-18.26.22:182][927]LogWorld: Bringing up level for play took: 0.000801
+[2017.05.15-18.26.22:188][927]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal -0.58
+[2017.05.15-18.26.22:188][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.47:260][825]LogNet: Browse: /Game/Mapas/Bilbioteca
+[2017.05.15-18.26.47:260][825]LogLoad: LoadMap: /Game/Mapas/Bilbioteca
+[2017.05.15-18.26.47:275][825]Cmd: MEM
+[2017.05.15-18.26.47:286][825]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.26.47:286][825]LogMemory: Process Physical Memory: 1519.88 MB used, 1587.52 MB peak
+[2017.05.15-18.26.47:286][825]LogMemory: Process Virtual Memory: 1441.38 MB used, 1516.75 MB peak
+[2017.05.15-18.26.47:286][825]LogMemory: Physical Memory: 5598.32 MB used,  10704.60 MB free, 16302.92 MB total
+[2017.05.15-18.26.47:286][825]LogMemory: Virtual Memory: 2161.33 MB used,  10704.60 MB free, 134217728.00 MB total
+[2017.05.15-18.26.47:286][825]LogMemory: 
+[2017.05.15-18.26.47:286][825]Allocator Stats for TBB: (not implemented)
+[2017.05.15-18.26.49:072][825]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.26.49:072][825]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.26.49:129][825]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca up for play (max tick rate 0) at 2017.05.15-11.26.49
+[2017.05.15-18.26.49:131][825]LogWorld: Bringing up level for play took: 0.057899
+[2017.05.15-18.26.49:135][825]LogLoad: Took 1.874627 seconds to LoadMap(/Game/Mapas/Bilbioteca)
+[2017.05.15-18.26.50:189][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.50:335][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.26.54:033][267]LogEditorViewport: Clicking Background
+[2017.05.15-18.27.19:096][105]LogHttp:Warning: 000000FC2037F400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.27.19:096][105]LogHttp:Warning: 000000FC2037F400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.27.19:096][105]LogHttp:Warning: 000000FC2037F400: libcurl info message cache 1 (Closing connection 4)
+[2017.05.15-18.27.41:728][335]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.27.41:744][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.41:744][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.27.41:744][335]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:27:41 AM)
+[2017.05.15-18.27.41:744][335]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.27.41:745][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000923s)
+[2017.05.15-18.27.41:746][335]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.27.41:746][335]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.05.15-18.27.41:746][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.001776s)
+[2017.05.15-18.27.41:761][335]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.27.41:770][335]LogInit: FAudioDevice initialized.
+[2017.05.15-18.27.41:805][335]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.27.41:807][335]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.27.41
+[2017.05.15-18.27.41:807][335]LogWorld: Bringing up level for play took: 0.000802
+[2017.05.15-18.27.41:810][335]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 1.042
+[2017.05.15-18.27.41:810][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.43:569][530]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.43:601][530]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.44:417][625]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.27.44:431][625]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.44:431][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.27.44:431][625]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:27:44 AM)
+[2017.05.15-18.27.44:431][625]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.27.44:432][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001206s)
+[2017.05.15-18.27.44:433][625]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.27.44:433][625]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2017.05.15-18.27.44:434][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002580s)
+[2017.05.15-18.27.44:454][625]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.27.44:464][625]LogInit: FAudioDevice initialized.
+[2017.05.15-18.27.44:499][625]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.27.44:501][625]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.27.44
+[2017.05.15-18.27.44:501][625]LogWorld: Bringing up level for play took: 0.000910
+[2017.05.15-18.27.44:504][625]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal -0.264
+[2017.05.15-18.27.44:504][625]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.45:215][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.27.45:250][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.12:741][385]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.28.12:758][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.12:758][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.28.12:758][385]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:28:12 AM)
+[2017.05.15-18.28.12:758][385]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.28.12:759][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001097s)
+[2017.05.15-18.28.12:760][385]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.28.12:760][385]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.05.15-18.28.12:760][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002097s)
+[2017.05.15-18.28.12:777][385]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.28.12:785][385]LogInit: FAudioDevice initialized.
+[2017.05.15-18.28.12:820][385]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.28.12:821][385]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.28.12
+[2017.05.15-18.28.12:821][385]LogWorld: Bringing up level for play took: 0.000970
+[2017.05.15-18.28.12:825][385]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 0.057
+[2017.05.15-18.28.12:825][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.14:511][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.14:543][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.22:324][460]LogSavePackage: Save=72.14ms
+[2017.05.15-18.28.22:324][460]LogSavePackage: Moving '../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Saved/UEDPCMenuPrincipal6CEA9CF6472C764FBEBFAA944DECA590.tmp' to '../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Saved/Autosaves/Game/Mapas/UEDPCMenuPrincipal.umap'
+[2017.05.15-18.28.22:326][460]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Saved/Autosaves/Game/Mapas/UEDPCMenuPrincipal.umap
+[2017.05.15-18.28.22:331][460]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.15-18.28.22:839][519]LogHttp:Warning: 000000FC1D18FE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.28.22:839][519]LogHttp:Warning: 000000FC1D18FE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.28.22:839][519]LogHttp:Warning: 000000FC1D18FE80: libcurl info message cache 1 (Closing connection 5)
+[2017.05.15-18.28.25:299][805]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.25:299][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.28.25:299][805]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:28:25 AM)
+[2017.05.15-18.28.25:299][805]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.28.25:301][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001384s)
+[2017.05.15-18.28.25:301][805]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.28.25:302][805]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2017.05.15-18.28.25:302][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002685s)
+[2017.05.15-18.28.25:324][805]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.28.25:334][805]LogInit: FAudioDevice initialized.
+[2017.05.15-18.28.25:368][805]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.28.25:370][805]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.28.25
+[2017.05.15-18.28.25:370][805]LogWorld: Bringing up level for play took: 0.000843
+[2017.05.15-18.28.25:373][805]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 0.605
+[2017.05.15-18.28.25:373][805]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.26:321][914]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.26:355][914]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.33:772][746]LogEditorViewport: Clicking Background
+[2017.05.15-18.28.36:191][ 11]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.15-18.28.39:051][323]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.28.39:063][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.28.39:063][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.28.39:063][323]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:28:39 AM)
+[2017.05.15-18.28.39:063][323]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.28.39:065][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001405s)
+[2017.05.15-18.28.39:066][323]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.28.39:066][323]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2017.05.15-18.28.39:066][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002871s)
+[2017.05.15-18.28.39:081][323]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.28.39:090][323]LogInit: FAudioDevice initialized.
+[2017.05.15-18.28.39:127][323]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.28.39:128][323]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.28.39
+[2017.05.15-18.28.39:129][323]LogWorld: Bringing up level for play took: 0.000787
+[2017.05.15-18.28.39:131][323]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 0.363
+[2017.05.15-18.28.39:132][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.29.07:044][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.29.07:107][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.29.07:149][994]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:5941).
+[2017.05.15-18.29.12:048][490]Cmd: SELECT NONE
+[2017.05.15-18.29.13:443][654]LogEditorViewport: Clicking Background
+[2017.05.15-18.29.25:309][657]LogHttp:Warning: 000000FC1E2B0580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.29.25:309][657]LogHttp:Warning: 000000FC1E2B0580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.29.25:309][657]LogHttp:Warning: 000000FC1E2B0580: libcurl info message cache 1 (Closing connection 6)
+[2017.05.15-18.29.26:772][802]LogEditorViewport: Clicking Background
+[2017.05.15-18.29.30:725][ 94]LogEditorViewport: Clicking Background
+[2017.05.15-18.29.33:011][366]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.29.33:024][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.29.33:024][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.29.33:024][366]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:29:33 AM)
+[2017.05.15-18.29.33:024][366]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.29.33:026][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001234s)
+[2017.05.15-18.29.33:026][366]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.29.33:026][366]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.05.15-18.29.33:027][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002236s)
+[2017.05.15-18.29.33:042][366]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.29.33:050][366]LogInit: FAudioDevice initialized.
+[2017.05.15-18.29.33:082][366]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.29.33:084][366]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.29.33
+[2017.05.15-18.29.33:084][366]LogWorld: Bringing up level for play took: 0.000673
+[2017.05.15-18.29.33:087][366]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 0.318
+[2017.05.15-18.29.33:087][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.29.55:914][ 94]LogNet: Browse: /Game/Mapas/Bilbioteca
+[2017.05.15-18.29.55:914][ 94]LogLoad: LoadMap: /Game/Mapas/Bilbioteca
+[2017.05.15-18.29.55:928][ 94]Cmd: MEM
+[2017.05.15-18.29.55:940][ 94]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.29.55:940][ 94]LogMemory: Process Physical Memory: 2379.52 MB used, 2439.75 MB peak
+[2017.05.15-18.29.55:940][ 94]LogMemory: Process Virtual Memory: 2304.48 MB used, 2365.51 MB peak
+[2017.05.15-18.29.55:940][ 94]LogMemory: Physical Memory: 6412.18 MB used,  9890.73 MB free, 16302.92 MB total
+[2017.05.15-18.29.55:940][ 94]LogMemory: Virtual Memory: 3013.63 MB used,  9890.73 MB free, 134217728.00 MB total
+[2017.05.15-18.29.55:940][ 94]LogMemory: 
+[2017.05.15-18.29.55:940][ 94]Allocator Stats for TBB: (not implemented)
+[2017.05.15-18.29.56:199][ 94]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.29.56:200][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.29.56:200][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/chair/Chair : Can't find file for asset. /Game/modelos/chair/Chair2
+[2017.05.15-18.29.56:200][ 94]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.29.56:200][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.29.56:201][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.29.56:201][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:202][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book01Mat
+[2017.05.15-18.29.56:202][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.29.56:202][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:202][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book02Mat
+[2017.05.15-18.29.56:202][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.29.56:202][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:202][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book03Mat
+[2017.05.15-18.29.56:202][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.29.56:202][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:202][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book04Mat
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:203][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/libros/general_books_OBJ : Can't find file for asset. /Game/modelos/libros/book05Mat
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.29.56:203][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:204][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.29.56:204][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:204][ 94]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.29.56:204][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.29.56:205][ 94]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.29.56:205][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.29.56:205][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/mesa/Linda+Coffee+Table : Can't find file for asset. /Game/modelos/mesa/glassMat
+[2017.05.15-18.29.56:205][ 94]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.29.56:205][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.29.56:205][ 94]LoadErrors:Error: Error /Game/Furniture/modelos/mesa/Linda+Coffee+Table : Can't find file for asset. /Game/modelos/mesa/table_legMat
+[2017.05.15-18.29.56:205][ 94]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.29.56:205][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.29.56:206][ 94]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.29.56:206][ 94]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.29.56:251][ 94]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.29.56:251][ 94]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.29.56:251][ 94]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_albedo
+[2017.05.15-18.29.56:251][ 94]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.29.56:251][ 94]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.29.56:251][ 94]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_normal
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.29.56:252][ 94]LoadErrors:Error: Error /Game/Room/Materials/MI_bookPiler : Can't find file for asset. /Game/Room/Textures/book_pillir_reflection
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.29.56:252][ 94]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.29.56:253][ 94]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.29.56:261][ 94]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.29.56:261][ 94]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.29.56:261][ 94]LoadErrors:Error: Error /Game/StarterContent/Props/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/M_Frame
+[2017.05.15-18.29.56:261][ 94]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.29.56:261][ 94]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.29.56:486][ 94]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.29.56:486][ 94]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.29.56:525][ 94]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca up for play (max tick rate 0) at 2017.05.15-11.29.56
+[2017.05.15-18.29.56:526][ 94]LogWorld: Bringing up level for play took: 0.039490
+[2017.05.15-18.29.56:530][ 94]LogLoad: Took 0.616117 seconds to LoadMap(/Game/Mapas/Bilbioteca)
+[2017.05.15-18.30.33:096][713]LogHttp:Warning: 000000FBA1250A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.30.33:096][713]LogHttp:Warning: 000000FBA1250A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.30.33:096][713]LogHttp:Warning: 000000FBA1250A00: libcurl info message cache 1 (Closing connection 7)
+[2017.05.15-18.30.51:384][ 39]LogScript:Warning: Accessed None trying to read property personaje
+	camara_C /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca:PersistentLevel.camara4_878
+	Function /Game/ThirdPersonBP/Blueprints/camara.camara_C:ExecuteUbergraph_camara:02D1
+[2017.05.15-18.30.51:384][ 39]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property personaje from function: 'ExecuteUbergraph_camara' from node: Set Camara Externa in graph: EventGraph in object: camara with description: Accessed None trying to read property personaje
+[2017.05.15-18.30.58:786][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.30.58:899][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.30.59:970][259]Cmd: SELECT NONE
+[2017.05.15-18.31.07:141][107]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.31.07:162][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.31.07:162][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.31.07:162][107]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:31:07 AM)
+[2017.05.15-18.31.07:162][107]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.31.07:164][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001270s)
+[2017.05.15-18.31.07:164][107]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.31.07:164][107]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2017.05.15-18.31.07:165][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002256s)
+[2017.05.15-18.31.07:182][107]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.31.07:191][107]LogInit: FAudioDevice initialized.
+[2017.05.15-18.31.07:224][107]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.31.07:225][107]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 0) at 2017.05.15-11.31.07
+[2017.05.15-18.31.07:225][107]LogWorld: Bringing up level for play took: 0.000774
+[2017.05.15-18.31.07:229][107]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 0.461
+[2017.05.15-18.31.07:230][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.31.09:214][331]LogNet: Browse: /Game/Mapas/Bilbioteca
+[2017.05.15-18.31.09:214][331]LogLoad: LoadMap: /Game/Mapas/Bilbioteca
+[2017.05.15-18.31.09:230][331]Cmd: MEM
+[2017.05.15-18.31.09:242][331]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.31.09:242][331]LogMemory: Process Physical Memory: 2406.57 MB used, 2471.89 MB peak
+[2017.05.15-18.31.09:242][331]LogMemory: Process Virtual Memory: 2329.89 MB used, 2398.99 MB peak
+[2017.05.15-18.31.09:242][331]LogMemory: Physical Memory: 6427.96 MB used,  9874.96 MB free, 16302.92 MB total
+[2017.05.15-18.31.09:242][331]LogMemory: Virtual Memory: 3034.26 MB used,  9874.96 MB free, 134217728.00 MB total
+[2017.05.15-18.31.09:242][331]LogMemory: 
+[2017.05.15-18.31.09:242][331]Allocator Stats for TBB: (not implemented)
+[2017.05.15-18.31.09:496][331]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.31.09:496][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.31.09:497][331]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.31.09:497][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.31.09:498][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.31.09:498][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:498][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:499][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.31.09:500][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.31.09:501][331]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.31.09:541][331]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.31.09:542][331]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.31.09:542][331]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.31.09:546][331]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.31.09:546][331]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.31.09:546][331]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.31.09:546][331]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.31.09:698][331]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.31.09:698][331]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.31.09:743][331]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca up for play (max tick rate 0) at 2017.05.15-11.31.09
+[2017.05.15-18.31.09:745][331]LogWorld: Bringing up level for play took: 0.045509
+[2017.05.15-18.31.09:748][331]LogLoad: Took 0.533068 seconds to LoadMap(/Game/Mapas/Bilbioteca)
+[2017.05.15-18.32.07:659][245]LogHttp:Warning: 000000FBA11E1600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.32.07:659][245]LogHttp:Warning: 000000FBA11E1600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.32.07:659][245]LogHttp:Warning: 000000FBA11E1600: libcurl info message cache 1 (Closing connection 8)
+[2017.05.15-18.33.19:283][593]LogHttp:Warning: 000000FBA11E0A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.33.19:283][593]LogHttp:Warning: 000000FBA11E0A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.33.19:283][593]LogHttp:Warning: 000000FBA11E0A00: libcurl info message cache 1 (Closing connection 9)
+[2017.05.15-18.35.19:353][172]LogHttp:Warning: 000000FBA11E0D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.35.19:353][172]LogHttp:Warning: 000000FBA11E0D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.35.19:353][172]LogHttp:Warning: 000000FBA11E0D00: libcurl info message cache 1 (Closing connection 10)
+[2017.05.15-18.37.18:946][743]LogHttp:Warning: 000000FBA11E0A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.37.18:946][743]LogHttp:Warning: 000000FBA11E0A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.37.18:946][743]LogHttp:Warning: 000000FBA11E0A00: libcurl info message cache 1 (Closing connection 11)
+[2017.05.15-18.37.33:754][811]LogBlueprintUserMessages: [BpPuzzle1_74] Ganar
+[2017.05.15-18.38.19:034][209]LogHttp:Warning: 000000FBA1A2A680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.38.19:034][209]LogHttp:Warning: 000000FBA1A2A680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.38.19:034][209]LogHttp:Warning: 000000FBA1A2A680: libcurl info message cache 1 (Closing connection 12)
+[2017.05.15-18.38.21:746][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.38.21:883][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.38.35:104][959]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:12981).
+[2017.05.15-18.38.35:203][964]LogContentStreaming: Texture pool size now 600 MB
+[2017.05.15-18.38.41:636][339]LogEditorViewport: Clicking Background
+[2017.05.15-18.38.49:698][821]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.38.49:714][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.38.49:714][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.38.49:714][821]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:38:49 AM)
+[2017.05.15-18.38.49:714][821]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.38.49:716][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001544s)
+[2017.05.15-18.38.49:717][821]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.38.49:717][821]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2017.05.15-18.38.49:717][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.003094s)
+[2017.05.15-18.38.49:731][821]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.38.49:741][821]LogInit: FAudioDevice initialized.
+[2017.05.15-18.38.49:775][821]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.38.49:777][821]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 60) at 2017.05.15-11.38.49
+[2017.05.15-18.38.49:777][821]LogWorld: Bringing up level for play took: 0.001192
+[2017.05.15-18.38.49:781][821]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 1.013
+[2017.05.15-18.38.49:782][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.38.51:472][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.38.51:502][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.38.54:781][117]LogEditorViewport: Clicking Background
+[2017.05.15-18.39.02:299][558]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.39.02:312][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.39.02:312][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.39.02:312][558]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:39:02 AM)
+[2017.05.15-18.39.02:312][558]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.39.02:313][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000934s)
+[2017.05.15-18.39.02:314][558]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.39.02:314][558]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.05.15-18.39.02:314][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.001959s)
+[2017.05.15-18.39.02:331][558]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.39.02:338][558]LogInit: FAudioDevice initialized.
+[2017.05.15-18.39.02:375][558]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.39.02:377][558]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 60) at 2017.05.15-11.39.02
+[2017.05.15-18.39.02:377][558]LogWorld: Bringing up level for play took: 0.000815
+[2017.05.15-18.39.02:379][558]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal -0.389
+[2017.05.15-18.39.02:380][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.39.04:349][668]LogNet: Browse: /Game/Mapas/Bilbioteca
+[2017.05.15-18.39.04:349][668]LogLoad: LoadMap: /Game/Mapas/Bilbioteca
+[2017.05.15-18.39.04:359][668]Cmd: MEM
+[2017.05.15-18.39.04:370][668]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.39.04:370][668]LogMemory: Process Physical Memory: 2410.19 MB used, 2471.89 MB peak
+[2017.05.15-18.39.04:370][668]LogMemory: Process Virtual Memory: 2328.99 MB used, 2398.99 MB peak
+[2017.05.15-18.39.04:370][668]LogMemory: Physical Memory: 6312.06 MB used,  9990.86 MB free, 16302.92 MB total
+[2017.05.15-18.39.04:370][668]LogMemory: Virtual Memory: 3041.25 MB used,  9990.86 MB free, 134217728.00 MB total
+[2017.05.15-18.39.04:370][668]LogMemory: 
+[2017.05.15-18.39.04:370][668]Allocator Stats for TBB: (not implemented)
+[2017.05.15-18.39.04:615][668]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.39.04:615][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.39.04:615][668]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.39.04:615][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.39.04:616][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.39.04:617][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.39.04:618][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.39.04:619][668]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.39.04:619][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.39.04:619][668]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.39.04:619][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.39.04:619][668]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.39.04:620][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.39.04:620][668]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.39.04:620][668]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.39.04:663][668]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.39.04:663][668]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.39.04:663][668]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.39.04:663][668]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.39.04:663][668]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.39.04:663][668]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.39.04:664][668]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.39.04:664][668]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.39.04:664][668]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.39.04:664][668]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.39.04:664][668]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.39.04:664][668]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.39.04:669][668]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.39.04:669][668]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.39.04:669][668]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.39.04:669][668]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.39.04:826][668]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.39.04:827][668]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.39.04:866][668]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca up for play (max tick rate 60) at 2017.05.15-11.39.04
+[2017.05.15-18.39.04:867][668]LogWorld: Bringing up level for play took: 0.039333
+[2017.05.15-18.39.04:869][668]LogLoad: Took 0.520777 seconds to LoadMap(/Game/Mapas/Bilbioteca)
+[2017.05.15-18.39.40:853][562]LogHttp:Warning: 000000FBDD8DA980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.39.40:853][562]LogHttp:Warning: 000000FBDD8DA980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.39.40:853][562]LogHttp:Warning: 000000FBDD8DA980: libcurl info message cache 1 (Closing connection 13)
+[2017.05.15-18.40.20:710][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.40.20:874][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.40.24:517][500]Cmd: SELECT NONE
+[2017.05.15-18.40.25:117][536]Cmd: SELECT NONE
+[2017.05.15-18.40.35:284][146]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.40.35:299][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.40.35:299][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.40.35:299][146]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:40:35 AM)
+[2017.05.15-18.40.35:299][146]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.40.35:300][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000938s)
+[2017.05.15-18.40.35:301][146]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.40.35:301][146]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.05.15-18.40.35:301][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.002148s)
+[2017.05.15-18.40.35:319][146]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.40.35:327][146]LogInit: FAudioDevice initialized.
+[2017.05.15-18.40.35:357][146]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.40.35:359][146]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 60) at 2017.05.15-11.40.35
+[2017.05.15-18.40.35:359][146]LogWorld: Bringing up level for play took: 0.000854
+[2017.05.15-18.40.35:362][146]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal 0.594
+[2017.05.15-18.40.35:362][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.40.51:416][ 99]LogNet: Browse: /Game/Mapas/Bilbioteca
+[2017.05.15-18.40.51:416][ 99]LogLoad: LoadMap: /Game/Mapas/Bilbioteca
+[2017.05.15-18.40.51:428][ 99]Cmd: MEM
+[2017.05.15-18.40.51:440][ 99]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.40.51:440][ 99]LogMemory: Process Physical Memory: 2408.34 MB used, 2474.72 MB peak
+[2017.05.15-18.40.51:440][ 99]LogMemory: Process Virtual Memory: 2326.98 MB used, 2398.99 MB peak
+[2017.05.15-18.40.51:440][ 99]LogMemory: Physical Memory: 6320.69 MB used,  9982.23 MB free, 16302.92 MB total
+[2017.05.15-18.40.51:440][ 99]LogMemory: Virtual Memory: 3042.13 MB used,  9982.23 MB free, 134217728.00 MB total
+[2017.05.15-18.40.51:440][ 99]LogMemory: 
+[2017.05.15-18.40.51:440][ 99]Allocator Stats for TBB: (not implemented)
+[2017.05.15-18.40.51:688][ 99]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.40.51:688][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.40.51:688][ 99]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.40.51:688][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.40.51:689][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.40.51:689][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:689][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.40.51:689][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:689][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.40.51:690][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:691][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.40.51:691][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:691][ 99]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.40.51:691][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.40.51:691][ 99]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.40.51:692][ 99]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.40.51:727][ 99]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.40.51:727][ 99]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.40.51:727][ 99]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.40.51:728][ 99]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.40.51:733][ 99]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.40.51:733][ 99]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.40.51:733][ 99]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.40.51:733][ 99]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.40.51:876][ 99]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.40.51:877][ 99]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.40.51:922][ 99]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca up for play (max tick rate 60) at 2017.05.15-11.40.51
+[2017.05.15-18.40.51:924][ 99]LogWorld: Bringing up level for play took: 0.046129
+[2017.05.15-18.40.51:926][ 99]LogLoad: Took 0.510359 seconds to LoadMap(/Game/Mapas/Bilbioteca)
+[2017.05.15-18.41.18:862][771]LogHttp:Warning: 000000FBDF312200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.41.18:862][771]LogHttp:Warning: 000000FBDF312200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.41.18:862][771]LogHttp:Warning: 000000FBDF312200: libcurl info message cache 1 (Closing connection 14)
+[2017.05.15-18.42.19:020][290]LogHttp:Warning: 000000FBA2B21780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.42.19:020][290]LogHttp:Warning: 000000FBA2B21780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.42.19:020][290]LogHttp:Warning: 000000FBA2B21780: libcurl info message cache 1 (Closing connection 15)
+[2017.05.15-18.43.19:072][905]LogHttp:Warning: 000000FBA2B20280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.43.19:072][905]LogHttp:Warning: 000000FBA2B20280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.43.19:072][905]LogHttp:Warning: 000000FBA2B20280: libcurl info message cache 1 (Closing connection 16)
+[2017.05.15-18.45.18:967][134]LogHttp:Warning: 000000FBA2B20A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.45.18:967][134]LogHttp:Warning: 000000FBA2B20A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.45.18:967][134]LogHttp:Warning: 000000FBA2B20A00: libcurl info message cache 1 (Closing connection 17)
+[2017.05.15-18.46.18:970][749]LogHttp:Warning: 000000FBA2B22E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.46.18:970][749]LogHttp:Warning: 000000FBA2B22E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.46.18:970][749]LogHttp:Warning: 000000FBA2B22E00: libcurl info message cache 1 (Closing connection 18)
+[2017.05.15-18.47.18:979][363]LogHttp:Warning: 000000FBA2B23100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.47.18:980][363]LogHttp:Warning: 000000FBA2B23100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.47.18:980][363]LogHttp:Warning: 000000FBA2B23100: libcurl info message cache 1 (Closing connection 19)
+[2017.05.15-18.48.19:013][978]LogHttp:Warning: 000000FBA2B22E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.48.19:013][978]LogHttp:Warning: 000000FBA2B22E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.48.19:013][978]LogHttp:Warning: 000000FBA2B22E00: libcurl info message cache 1 (Closing connection 20)
+[2017.05.15-18.49.19:043][594]LogHttp:Warning: 000000FBA2B21D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.49.19:043][594]LogHttp:Warning: 000000FBA2B21D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.49.19:043][594]LogHttp:Warning: 000000FBA2B21D80: libcurl info message cache 1 (Closing connection 21)
+[2017.05.15-18.51.19:036][828]LogHttp:Warning: 000000FBA2B21180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.51.19:036][828]LogHttp:Warning: 000000FBA2B21180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.51.19:036][828]LogHttp:Warning: 000000FBA2B21180: libcurl info message cache 1 (Closing connection 22)
+[2017.05.15-18.51.38:885][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.51.39:047][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.51.40:423][108]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.15-18.51.40:437][108]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.51.40:437][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.15-18.51.40:437][108]PIE: New page: PIE session: MenuPrincipal (May 15, 2017, 4:51:40 AM)
+[2017.05.15-18.51.40:437][108]LogPlayLevel: Creating play world package: /Game/Mapas/UEDPIE_0_MenuPrincipal
+[2017.05.15-18.51.40:438][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001011s)
+[2017.05.15-18.51.40:439][108]LogAIModule: Creating AISystem for world MenuPrincipal
+[2017.05.15-18.51.40:439][108]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2017.05.15-18.51.40:439][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Mapas/MenuPrincipal.MenuPrincipal to /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal (0.001939s)
+[2017.05.15-18.51.40:456][108]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.15-18.51.40:465][108]LogInit: FAudioDevice initialized.
+[2017.05.15-18.51.40:499][108]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.51.40:501][108]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_MenuPrincipal.MenuPrincipal up for play (max tick rate 60) at 2017.05.15-11.51.40
+[2017.05.15-18.51.40:501][108]LogWorld: Bringing up level for play took: 0.001041
+[2017.05.15-18.51.40:505][108]PIE: Info Play in editor start time for /Game/Mapas/UEDPIE_0_MenuPrincipal -0.263
+[2017.05.15-18.51.40:505][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.51.42:813][247]LogNet: Browse: /Game/Mapas/Bilbioteca
+[2017.05.15-18.51.42:813][247]LogLoad: LoadMap: /Game/Mapas/Bilbioteca
+[2017.05.15-18.51.42:825][247]Cmd: MEM
+[2017.05.15-18.51.42:838][247]LogMemory: Platform Memory Stats for Windows
+[2017.05.15-18.51.42:838][247]LogMemory: Process Physical Memory: 2400.29 MB used, 2474.72 MB peak
+[2017.05.15-18.51.42:838][247]LogMemory: Process Virtual Memory: 2318.70 MB used, 2398.99 MB peak
+[2017.05.15-18.51.42:838][247]LogMemory: Physical Memory: 6298.05 MB used,  10004.87 MB free, 16302.92 MB total
+[2017.05.15-18.51.42:838][247]LogMemory: Virtual Memory: 3024.30 MB used,  10004.87 MB free, 134217728.00 MB total
+[2017.05.15-18.51.42:838][247]LogMemory: 
+[2017.05.15-18.51.42:838][247]Allocator Stats for TBB: (not implemented)
+[2017.05.15-18.51.43:081][247]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.51.43:081][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.51.43:081][247]LogLinker:Warning: Can't find file '/Game/modelos/chair/Chair2'
+[2017.05.15-18.51.43:081][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/chair/Chair2' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/chair/Chair.uasset.
+[2017.05.15-18.51.43:082][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.51.43:082][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:082][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.51.43:082][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book01Mat'
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book01Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book02Mat'
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book02Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book03Mat'
+[2017.05.15-18.51.43:083][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book03Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:084][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book04Mat'
+[2017.05.15-18.51.43:084][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book04Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:084][247]LogLinker:Warning: Can't find file '/Game/modelos/libros/book05Mat'
+[2017.05.15-18.51.43:084][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/libros/book05Mat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/libros/general_books_OBJ.uasset.
+[2017.05.15-18.51.43:084][247]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file '/Game/modelos/mesa/glassMat'
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/glassMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file '/Game/modelos/mesa/table_legMat'
+[2017.05.15-18.51.43:085][247]LogLinker:Warning: Can't find file for asset '/Game/modelos/mesa/table_legMat' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Furniture/modelos/mesa/Linda+Coffee+Table.uasset.
+[2017.05.15-18.51.43:119][247]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.51.43:119][247]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.51.43:119][247]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.51.43:119][247]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.51.43:119][247]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.51.43:119][247]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.51.43:120][247]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_albedo'
+[2017.05.15-18.51.43:120][247]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_albedo' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.51.43:120][247]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_normal'
+[2017.05.15-18.51.43:120][247]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_normal' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.51.43:120][247]LogLinker:Warning: Can't find file '/Game/Room/Textures/book_pillir_reflection'
+[2017.05.15-18.51.43:120][247]LogLinker:Warning: Can't find file for asset '/Game/Room/Textures/book_pillir_reflection' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Room/Materials/MI_bookPiler.uasset.
+[2017.05.15-18.51.43:124][247]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.51.43:125][247]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.51.43:125][247]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/M_Frame'
+[2017.05.15-18.51.43:125][247]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/M_Frame' while loading ../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/StarterContent/Props/SM_DoorFrame.uasset.
+[2017.05.15-18.51.43:278][247]LogAIModule: Creating AISystem for world Bilbioteca
+[2017.05.15-18.51.43:279][247]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.15-18.51.43:321][247]LogWorld: Bringing World /Game/Mapas/UEDPIE_0_Bilbioteca.Bilbioteca up for play (max tick rate 60) at 2017.05.15-11.51.43
+[2017.05.15-18.51.43:323][247]LogWorld: Bringing up level for play took: 0.043033
+[2017.05.15-18.51.43:325][247]LogLoad: Took 0.512162 seconds to LoadMap(/Game/Mapas/Bilbioteca)
+[2017.05.15-18.52.40:693][681]LogHttp:Warning: 000000FBA2B10400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.52.40:693][681]LogHttp:Warning: 000000FBA2B10400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.52.40:693][681]LogHttp:Warning: 000000FBA2B10400: libcurl info message cache 1 (Closing connection 23)
+[2017.05.15-18.53.09:061][979]LogBlueprintUserMessages: [BpPuzzle1_74] Ganar
+[2017.05.15-18.53.47:701][204]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.53.47:742][204]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel' has LevelScriptBlueprint '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal' with GeneratedClass '/Game/Mapas/MenuPrincipal.MenuPrincipal_C' with ClassGeneratedBy '/Game/Mapas/MenuPrincipal.MenuPrincipal:PersistentLevel.MenuPrincipal'
+[2017.05.15-18.53.55:752][667]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.15-18.53.55:949][668]Cmd: QUIT_EDITOR
+[2017.05.15-18.53.56:036][668]LogExit: Preparing to exit.
+[2017.05.15-18.53.56:791][668]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Content/' was aborted.
+[2017.05.15-18.53.56:807][668]LogExit: Editor shut down
+[2017.05.15-18.53.56:807][668]LogExit: Transaction tracking system shut down
+[2017.05.15-18.53.57:070][668]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.15-18.53.57:071][668]LogExit: Object subsystem successfully closed.
+[2017.05.15-18.53.57:124][668]LogD3D11RHI: Shutdown
+[2017.05.15-18.53.57:124][668]LogD3D11RHI: CleanupD3DDevice
+[2017.05.15-18.53.57:204][668]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.15-18.53.57:218][668]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.05.15-18.53.57:218][668]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2017.05.15-18.53.57:218][668]LogModuleManager: Shutting down and abandoning module CrashTracker (500)
+[2017.05.15-18.53.57:218][668]LogModuleManager: Shutting down and abandoning module SceneOutliner (498)
+[2017.05.15-18.53.57:218][668]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2017.05.15-18.53.57:218][668]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.15-18.53.57:220][668]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2017.05.15-18.53.57:220][668]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2017.05.15-18.53.57:220][668]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2017.05.15-18.53.57:220][668]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Collections/' was aborted.
+[2017.05.15-18.53.57:220][668]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Content/Developers/Sebastian/Collections/' was aborted.
+[2017.05.15-18.53.57:220][668]LogDirectoryWatcher: A directory notification for 'C:/Users/Sebastian/Downloads/Proyecto/Proyecto/Saved/Collections/' was aborted.
+[2017.05.15-18.53.57:220][668]LogModuleManager: Shutting down and abandoning module StatsViewer (488)
+[2017.05.15-18.53.57:220][668]LogModuleManager: Shutting down and abandoning module FoliageEdit (486)
+[2017.05.15-18.53.57:220][668]LogModuleManager: Shutting down and abandoning module LandscapeEditor (484)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AutomationWorker (468)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (466)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (464)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module PlacementMode (463)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (460)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (458)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module MfMediaFactory (456)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module MfMediaEditor (454)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (452)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (450)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (448)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module Media (447)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (444)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module CharacterAI (442)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AudioCapture (440)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module SequenceRecorder (439)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module SmartSnapping (436)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module SessionServices (434)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module ViewportSnapping (432)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module ViewportInteraction (430)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module LogVisualizer (428)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module IntroTutorials (426)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (425)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (422)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (420)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (418)
+[2017.05.15-18.53.57:223][668]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (416)
+[2017.05.15-18.53.57:224][668]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (415)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (412)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (410)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module InputBindingEditor (408)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module NiagaraEditor (406)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module MergeActors (404)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module SizeMap (402)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module TreeMap (400)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module ReferenceViewer (398)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (396)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module LocalizationService (395)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module HardwareTargeting (392)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (390)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module UndoHistory (388)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module UserFeedback (386)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module XmlParser (384)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module Blutility (382)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (380)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (379)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (376)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module SettingsEditor (374)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module ProjectLauncher (372)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module SessionFrontend (370)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module ProfilerClient (368)
+[2017.05.15-18.53.57:790][668]LogModuleManager: Shutting down and abandoning module DeviceManager (366)
+[2017.05.15-18.53.57:791][668]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (365)
+[2017.05.15-18.53.57:846][668]LogModuleManager: Shutting down and abandoning module AutomationController (362)
+[2017.05.15-18.53.57:846][668]LogModuleManager: Shutting down and abandoning module AutomationWindow (360)
+[2017.05.15-18.53.57:846][668]LogModuleManager: Shutting down and abandoning module Layers (358)
+[2017.05.15-18.53.57:849][668]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (356)
+[2017.05.15-18.53.57:849][668]LogModuleManager: Shutting down and abandoning module DetailCustomizations (354)
+[2017.05.15-18.53.57:849][668]LogModuleManager: Shutting down and abandoning module PackagesDialog (352)
+[2017.05.15-18.53.57:849][668]LogModuleManager: Shutting down and abandoning module Persona (350)
+[2017.05.15-18.53.57:849][668]LogModuleManager: Shutting down and abandoning module AnimGraph (349)
+[2017.05.15-18.53.57:849][668]LogModuleManager: Shutting down and abandoning module Kismet (346)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module GraphEditor (344)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module ClassViewer (342)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module Toolbox (340)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module ModuleUI (338)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module MovieSceneTools (336)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module OutputLog (334)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module GammaUI (332)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module Documentation (330)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module Niagara (328)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (326)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module AnalyticsET (324)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module PortalServices (322)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module PortalRpc (320)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module MessagingRpc (318)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module AIModule (316)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module GameplayDebugger (315)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module AITestSuite (313)
+[2017.05.15-18.53.57:850][668]LogModuleManager: Shutting down and abandoning module ProfilerService (310)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module TaskGraph (308)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module SubstanceEditor (306)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.05.15-18.53.58:027][668]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.05.15-18.53.58:028][668]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.05.15-18.53.58:029][668]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.05.15-18.53.58:030][668]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (224)
+[2017.05.15-18.53.58:030][668]LogModuleManager: Shutting down and abandoning module PhysXVehicles (222)
+[2017.05.15-18.53.58:030][668]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (220)
+[2017.05.15-18.53.58:030][668]LogModuleManager: Shutting down and abandoning module UdpMessaging (218)
+[2017.05.15-18.53.58:131][668]LogModuleManager: Shutting down and abandoning module TcpMessaging (216)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module SubstanceCore (214)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.15-18.53.58:231][668]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.15-18.53.58:233][668]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.15-18.53.58:233][668]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.15-18.53.58:234][668]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.15-18.53.58:234][668]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.15-18.53.58:234][668]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.15-18.53.58:234][668]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.15-18.53.58:401][668]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.15-18.53.58:401][668]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Sebastian/Downloads/Proyecto/Proyecto/Content/' was aborted.
+[2017.05.15-18.53.58:401][668]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.15-18.53.58:401][668]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.15-18.53.58:402][668]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.15-18.53.58:441][668]LogDerivedDataCache: Shutdown
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.15-18.53.58:441][668]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.15-18.53.58:442][668]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.15-18.53.58:442][668]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.15-18.53.58:442][668]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.15-18.53.58:442][668]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA606B2DD-4EE7-C587-1B3E-6980F64477F3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=9939e5e14546e5e72d932380a1af088f%7C6c678e834aca4b4c8dfa588e8267074a%7C8efd7b13-f4d5-41d2-89e5-10f17711cc97&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.15-18.53.58:442][668]LogHttp:Warning: 000000FBA233A080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.05.15-18.53.58:442][668]LogHttp:Warning: 000000FBA233A080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.05.15-18.53.58:442][668]LogHttp:Warning: 000000FBA233A080: libcurl info message cache 1 (Closing connection 24)
+[2017.05.15-18.53.58:463][668]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.15-18.53.58:465][668]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.15-18.53.58:465][668]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.15-18.53.58:465][668]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.15-18.53.58:465][668]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.15-18.53.58:465][668]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.15-18.53.58:466][668]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.15-18.53.58:468][668]LogExit: Exiting.
+[2017.05.15-18.53.58:470][668]Log file closed, 05/15/17 11:53:58
